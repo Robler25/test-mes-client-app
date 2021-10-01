@@ -1,0 +1,17 @@
+server.port: 8101
+spring.application.name: config-server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8100/eureka/
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Robler25/test-mes-client-config
+          default-label: main
+
+#http://localhost:8101/test-mes-client/default/main
