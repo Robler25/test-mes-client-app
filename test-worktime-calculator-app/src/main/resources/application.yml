@@ -1,0 +1,16 @@
+
+# To improve the performance during development.
+# For more information https://vaadin.com/docs/v14/flow/spring/tutorial-spring-configuration.html#special-configuration-parameters
+# vaadin.whitelisted-packages= org/vaadin/example
+logging.level.org.atmosphere: warn
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8100/eureka/
+
+server:
+  port: 8105
+spring:
+  application.name: worktime-calculator-app
+

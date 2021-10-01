@@ -1,0 +1,53 @@
+
+.worktime-view {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	height: 100%;
+	width: 100vw;
+	align-items: center;
+	flex-direction: column;
+}
+
+.worktime-header {
+	margin: 40px 0;
+	font-size: 36px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.worktime-pickerContainer{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 0 200px;
+	width: 100%;
+}
+
+.worktime-leftContainer{
+	display: flex;
+	align-items: flex-end;
+	padding-right: 50px;
+	flex-direction: column;
+}
+
+.worktime-rightContainer{
+	display: flex;
+	align-items: flex-start;
+	padding-left: 50px;
+	flex-direction: column;
+}
+
+.worktime-timepicker{
+	width: 40%;
+}
+
+.worktime-button{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	width: 40%;
+}
+
+.worktime-summary{
+	width: 40%;
+	height: 100px;
+}
